@@ -1,0 +1,16 @@
+{
+  "bindings": [
+    {
+      "name": "myBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "files2/images/{name}",
+      "connection": "csg10032001a776194d_STORAGE"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "httpRes"
+    }
+  ]
+}

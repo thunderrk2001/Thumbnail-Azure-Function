@@ -1,0 +1,15 @@
+{
+  "name": "azure-func",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@azure/storage-blob": "^12.17.0",
+    "image-thumbnail": "^1.0.15",
+    "jimp": "^0.22.12",
+    "sharp": "^0.33.3"
+  }
+}
