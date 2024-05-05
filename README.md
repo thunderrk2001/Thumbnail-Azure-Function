@@ -27,10 +27,6 @@ When an image file is uploaded to the specified path in the container, the funct
 1. Upload an image file to the specified path within your Azure Blob Storage container.
 2. Wait for a few moments, and the function will automatically generate a thumbnail image in a new folder within the same container.
 
-## Folder Structure
-
-- `src/`: Contains the source code for the Azure Function.
-- `README.md`: This file, providing an overview and instructions for the function.
 
 ## Dependencies
 
